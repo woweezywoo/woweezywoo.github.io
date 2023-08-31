@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(222, 246, 254);
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+h2  {
+  color:crimson
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
