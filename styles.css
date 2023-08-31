@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(222, 246, 254);
+  background-color: rgb(221, 246, 255);
 }
 
 h1 {
@@ -9,6 +9,10 @@ h1 {
 
 h2  {
   color:crimson
+}
+
+h3  {
+    color:darkslategrey
 }
 
 p {
