@@ -4,10 +4,12 @@ body {
 
 h1 {
   color: #000000;
+  background-color: pink;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font: size 60px;
   border: 2px solid pink
+  
 }
 
 h2  {
