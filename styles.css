@@ -13,15 +13,22 @@ h1 {
 }
 
 h2  {
+  text-align: center;
   color:crimson
-
+  
 }
 
 h3  {
-    color:darkslategrey
+  text-align: center;
+  color:darkslategrey  
 }
 
 p {
   font-family: verdana;
   font-size: 15px;
+  text-align: center;
+}
+
+a {
+  text-align: center;
 }
