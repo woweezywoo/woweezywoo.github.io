@@ -1,21 +1,21 @@
 body {
-  background-color: rgba(255, 233, 216, 0.932);
+  background-color: rgba(255, 248, 244, 0.932);
 }
 
 h1 {
   color: white;
-  background-color: rgb(44, 163, 137);
+  background-color: purple;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:  30px;
   text-shadow: 2px 2px 4px;
   border: 2px solid silver;
-  padding: 17px 18px
+  padding: 14px 18px;
   
 }
 
 .topnav {
-background-color: rgb(44, 163, 137);
+background-color: purple;
 overflow: hidden;
 }
 
