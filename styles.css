@@ -117,7 +117,8 @@ img {
 }
 
 image1 {
-  display:block;
+  display: block;
+  block-size: 60%;
   max-width: 50%;
   max-height: 50%;
   float: left;
@@ -129,6 +130,7 @@ image1 {
   block-size: 80%;
   float: left;
   text-align: center;
+  vertical-align: middle;
   padding-left: 20px;
   border-left: 5px solid rgb(75, 0, 75);
   margin-left: 40px;
