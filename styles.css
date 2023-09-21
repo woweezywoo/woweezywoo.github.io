@@ -17,6 +17,14 @@ h1 {
   margin-right: auto;
 }
 
+.sticky {
+  position: -webkit-sticky; /*Safari*/
+  position: sticky; 
+  top: 0;
+  padding: 5px;
+
+}
+
 .topnav {
   width: 85%;
   background-color: purple;
@@ -34,7 +42,7 @@ h1 {
   padding: 16px 16px;
   text-decoration: none;
   font-family:'optima', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .topnav a:hover {
