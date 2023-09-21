@@ -35,7 +35,7 @@ h1 {
   color: white;
   text-align: center;
   padding: 16px 12px;
-  
+  border-left: 4px solid white;
   text-decoration: none;
   font-family: 'Mg Dalenaf', sans-serif;
   font-size: 30px;
@@ -85,6 +85,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  font-family: 'optima', sans-serif;
 }
 
 .businesshours {
