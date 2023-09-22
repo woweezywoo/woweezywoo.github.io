@@ -23,11 +23,13 @@ h1 {
 }
 
 .topnav {
-  width: 75%;
+  width: 73%;
   background-color: purple;
   overflow: hidden;
+  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .topnav a {
@@ -35,7 +37,7 @@ h1 {
   color: white;
   text-align: center;
   padding: 16px 12px;
-  border-left: 4px solid white;
+  border-radius: 5px;
   text-decoration: none;
   font-family: 'Mg Dalenaf', sans-serif;
   font-size: 30px;
@@ -54,8 +56,8 @@ h1 {
 }
 h2  {
   text-align: center;
-  color:rgb(75, 0, 75);
-  font-family: 'optima', sans-serif;
+  color: rgb(100, 0, 100);
+  font-family: 'Donut Days', sans-serif;
   margin-bottom: 40px;
   font-size: 45px;
   
@@ -63,9 +65,9 @@ h2  {
 
 h3  {
   text-align: center;
-  color: rgb(75, 0, 75);
-  font-family: 'optima', sans-serif;
-  font-size: 35px;
+  color: rgb(100, 0, 100);
+  font-family: 'Donut Days', sans-serif;
+  font-size: 45px;
 }
 
 p {
@@ -90,6 +92,7 @@ table {
 
 .businesshours {
   font-size: 25px;
+  font-family: 'optima', sans-serif;
   text-align: center;
 }
 
@@ -98,6 +101,7 @@ th {
   width: 100px;
   height: 50px;
   font-size: 25px;
+  font-family: 'optima', sans-serif;
   font-weight: bold;
   padding: 15px;
   border-left: 2px solid rgb(75, 0, 75);
@@ -107,6 +111,7 @@ th {
 
 td  {
     font-size: 20px;
+    font-family: 'optima', sans-serif;
     padding: 15px;
     border-left: 2px solid rgb(75, 0, 75);
     border-bottom: 2px solid rgb(75, 0, 75);
@@ -117,38 +122,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-}
-
-.secondpage {
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  overflow: hidden;
-}
-
-image1 {
-  display: flex;
-  max-width: 50%;
-  max-height: 50%;
-  float: left;
-  margin-left: 40px;
-}
-
-.text {
-  display: flex;
-  font-size: 30px;
-  block-size: 80%;
-  float: left;
-  text-align: center;
-  vertical-align: middle;
-  padding-left: 20px;
-  border-left: 5px solid rgb(75, 0, 75);
-  margin-left: 40px;
-  margin-right: 40px;
-  
+  max-width: 60%;
 }
 
 
@@ -171,4 +145,31 @@ width: 100%;
 left: 0;
 top: 0;
 position: absolute;
+}
+
+.button {
+  width: 30%;
+  background-color: purple;
+  border-radius:  15px;
+  color: white;
+  padding: 20px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: 'Donut Days', sans-serif;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+}
+
+.button:hover {
+  background-color:rgb(240, 240, 240);
+  color:black;
+  box-shadow: 0 10px 10px silver black 10px 10px silver black;
+}
+.button:active {
+  background-color: rgb(240, 240, 240);
+  color: black;
 }
