@@ -56,7 +56,7 @@ h1 {
 h2  {
   text-align: center;
   color: rgb(191, 64, 191);
-  text-shadow: 4px 4px black;
+  text-shadow: black;
   font-family: 'Donut Days', sans-serif;
   margin-bottom: 40px;
   font-size: 45px;
@@ -130,13 +130,6 @@ img {
   max-width: 50%;
 }
 
-.sitepics {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%
-}
-
 
 a {
   text-align: center;
@@ -146,16 +139,16 @@ a {
 }
 
 .google-map {
+  max-width: 40%;
   padding-bottom: 300px;
   position :relative;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .google-map iframe {
 height: 100%;
 width: 100%;
-left: 0;
-top: 0;
 position: absolute;
 }
 
@@ -183,6 +176,15 @@ position: absolute;
 .button:active {
   background-color: beige;
   color: rgb(191, 64, 191);
+}
+
+.contact {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icecream {
