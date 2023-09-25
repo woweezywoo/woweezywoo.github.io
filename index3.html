@@ -9,12 +9,11 @@
     <meta name="description" content="Webpage project, page 3">
     <meta name="keywords" content="HTML, CSS, herkut, leivonnaiset, donitsit, jäätelö">
     <meta name="author" content="Jani Kavekari">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-    <h1>Herkut</h1>
-
-    <img src="ghostfacepastries.png" alt="Ghostface Killah and some sweets"> 
-
+    <header>
+        <h1>Herkut</h1>
+    </header>
     <div class="sticky">
         <div class="topnav">
             <a class active href="index.html">Hip Hop Cafe</a>
@@ -25,7 +24,8 @@
       <br /><br />
     <h3>Donuts by Dilla</h3>
     <div class="donuts">
-    <p>Donitsimme saavat nimensä ikonisen hip hop -tuottaja J Dillan merkkilevystä "Donuts".</p>
+    <p>Donitsimme saavat nimensä ikonisen hip hop -tuottaja J Dillan merkkilevystä 
+    <a href="https://en.wikipedia.org/wiki/Donuts_(album)" target="_blank">"Donuts"</a>.</p>
     <img src="dilladonutsnotexts.png" alt="J Dilla Donuts">
     </div>
 
@@ -57,9 +57,15 @@
     <br/>
 
 <div class="icecream">
-    <img src="ghostandrae2.png" alt="Ghostface and Raekwon">
-    <p>Jäätelöannostemme inspiraationa toimii Raekwonin klassikkokappale "Ice Cream". Kaikki maut on lainattu kappaleen
-        kertosäkeestä. Rohkeasti kokeilemaan!
+    <img src="ghostandrae2.png" alt="Ghostface and Raekwon" usemap="imagemap">
+
+    <map name="imagemap">
+        <area shape="rect" coords="268,184,346,214" alt="Ice Cream video" href="https://www.youtube.com/watch?v=jgh10of6DKA">
+        <area shape="circle" coords="128,197,100" alt="Raekwon" href="https://en.wikipedia.org/wiki/Raekwon">
+        <area shape="circle" coords="279,84,50" alt="Ghostface Killer" href="https://en.wikipedia.org/wiki/Ghostface_Killah">
+    </map>
+    <p>Jäätelöannostemme inspiraationa toimii Raekwonin klassikkokappale "Ice Cream". Kaikki makumme on lainattu kappaleen
+        kertosäkeestä. 
     </p>
 </div>
     <br/>
@@ -107,7 +113,7 @@
          </tr>
          <tr>
             <td>Ready to Pie</td>
-            <td>Mustikkapiirakan viipale.</td>
+            <td>Mustikkapiirakka, viipale.</td>
             <td>5€</td>
          </tr>
      </table>
