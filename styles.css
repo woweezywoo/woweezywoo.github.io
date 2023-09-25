@@ -56,7 +56,7 @@ h1 {
 h2  {
   text-align: center;
   color: rgb(191, 64, 191);
-  text-shadow: black;
+  text-shadow: 4px 4px black;
   font-family: 'Donut Days', sans-serif;
   margin-bottom: 40px;
   font-size: 45px;
