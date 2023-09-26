@@ -15,7 +15,7 @@ h1 {
 }
 
 .sticky {
-  position: -webkit-sticky; /*Safari*/
+  position: -webkit-sticky;
   position: sticky; 
   top: 0;
   padding: 1px;
@@ -49,8 +49,8 @@ h1 {
 }
 
 .topnav a.active {
-  background-color: beige;
-  color: rgb(191, 64, 191);
+  background-color: rgb(191, 64, 191);
+  color: beige;
 }
 
 h2  {
@@ -256,6 +256,7 @@ position: absolute;
   grid-row-start: 1;
   grid-row-end: 4;
 }
+
 @media only screen and (max-width:420px) {
 
 }
