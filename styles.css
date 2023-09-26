@@ -211,3 +211,11 @@ position: absolute;
 .bold {
   font-weight: bold;
 }
+
+@media only screen and (max-width:420px) {
+  .topnav {
+    width: 100%;
+    font-size: 10px;
+  
+  }
+}
