@@ -72,6 +72,10 @@ p {
   text-align: center;
 }
 
+#intro {
+  font-weight: bold;
+}
+
 table {
   width: 50%;
   border: 30px;
@@ -79,13 +83,6 @@ table {
   margin-right: auto;
   overflow: hidden;
   font-family: 'optima', sans-serif;
-}
-
-.businesshours {
-  font-size: 25px;
-  font-family: 'optima', sans-serif;
-  font-weight: bold;
-  text-align: center;
 }
 
 th {
@@ -238,18 +235,19 @@ position: absolute;
 }
 
 @media only screen and (max-width:420px) {
+
   h1 {
-    width: 410px;
-    font-size: 30px;
+    font-size: 5vw;
   }
 
   .topnav {
-    width: 410px;
-    padding: 0%;
+    width: 95%;
+    padding: 0;
+    border: none;
   }
   
   .topnav a {
-    font-size: 50%;
+    font-size: 2vw;
     padding-right: 10px;
     
   }
@@ -264,50 +262,133 @@ position: absolute;
     color: rgb(191, 64, 191)
   }
   h2  {
-   width: 410px;
-   font-size: 30px;
-   text-shadow: 1 px 1px black;
+   font-size: 7vw;
+   text-shadow: 1vw 1vw black;
+   margin-left: auto;
+   margin-right: auto;
   }
 
   p {
-    font-size: 15px
+    font-size: 4vw;
+  }
+
+  ul {
+    width: 50%;
+    font-size: 4vw;
+    justify-content: center;
   }
 
   .button {
     width: 50%;
-    font-size: 20px;
+    font-size: 4vw;
   }
 
 .centerphotos {
-  width: 350px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
   table,
   th,
   td {
-    width: 410px;
-    font-size: 15px;
+    width: 95%;
+    font-size: 3vw;
+    margin: 0;
+    
   }
 
 .google-map {
-  width: 410px
+  width: 70%;
+  height: 70%;
 }
 
 .foodmenu {
-  width: 405px;
-  font-size: 12px;
+  width: 90%;
+  font-size: 3vw;
 
 }
 
   .gallery {
-    width: 420px;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 5fr);
+  }
+
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .gallery__item--2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .gallery__item--4 {
+    grid-column: 2;
+    grid-row: 2;
   }
 }
 
 @media only screen and (min-width:421px) and (max-width:1024px) {
  h1 {
-  width: 1015px;
-  font-size: 40px;
- }
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+table,
+th,
+td {
+  width: 80%; 
+  font-size: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav {
+  width: 90%;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  font-size: 2vw;
+  padding-right: 10px
+}
+
+.centerphotos {
+  width: 80%;
+}
+
+p,
+ul {
+  font-size: 3vw;
+}
+
+.button {
+  width: 50%;
+  font-size: 3vw;
+}
+
+.google-map {
+  width: 70%;
+  height: 70%;
+}
  
 }
