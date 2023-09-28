@@ -60,15 +60,6 @@ h2  {
   font-family: 'Donut Days', sans-serif;
   margin-bottom: 40px;
   font-size: 45px;
-}
-
-h3  {
-  max-width: 20%;
-  text-align: center;
-  color: rgb(191, 64, 191);
-  text-shadow: 4px 4px black;
-  font-family: 'Donut Days', sans-serif;
-  font-size: 45px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -149,7 +140,7 @@ ul {
 }
 
 .google-map {
-  max-width: 40%;
+  width: 40%;
   padding-bottom: 300px;
   position : relative;
   margin-left: auto;
@@ -188,7 +179,8 @@ position: absolute;
   color: rgb(191, 64, 191);
 }
 
-.contact {
+.contactheader,
+.contactinfo {
   width: 75%;
   display: flex;
   align-items: center;
@@ -257,9 +249,72 @@ position: absolute;
 }
 
 @media only screen and (max-width:420px) {
+  h1 {
+    width: 410px;
+    font-size: 25px;
+  }
 
+  .topnav {
+    width: 410px;
+    padding: 0%;
+  }
+  
+  .topnav a {
+    font-size: 50%;
+    padding-right: 10px;
+    
+  }
+
+  .topnav a:hover {
+    background-color: beige;
+    color: rgb(191, 64, 191);
+  }
+  h2  {
+   width: 410px;
+   font-size: 30px;
+   text-shadow: 1 px 1px black;
+  }
+
+  .contactheader {
+    width: 410px;
+    clear:both;
+  }
+
+  .contactinfo {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    font-size: 10px;
+  }
+
+  table,
+  th,
+  td {
+    width: 410px;
+    font-size: 15px;
+  }
+
+.google-map {
+  width: 415px
+}
+
+.foodmenu {
+  width: 405px;
+  font-size: 12px;
+}
+
+  .gallery {
+    width: 420px;
+  }
 }
 
 @media only screen and (min-width:421px) and (max-width:1024px) {
-
+ h1 {
+  width: 1015px;
+  font-size: 40px;
+ }
+ 
 }
