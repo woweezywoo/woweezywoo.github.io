@@ -269,6 +269,11 @@ position: absolute;
     background-color: beige;
     color: rgb(191, 64, 191);
   }
+
+  .topnav a.active {
+    background-color:beige;
+    color: rgb(191, 64, 191)
+  }
   h2  {
    width: 410px;
    font-size: 30px;
