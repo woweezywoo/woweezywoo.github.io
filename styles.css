@@ -144,7 +144,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   font-size: 25px;
-  font-family: 'optima' sans-serif;
+  font-family: 'optima', sans-serif;
   font-weight: bold;
 }
 
@@ -260,8 +260,6 @@ position: absolute;
 
 }
 
-
-
-@media only screen and (min-width:421px) and (max-width:1024) {
+@media only screen and (min-width:421px) and (max-width:1024px) {
 
 }
