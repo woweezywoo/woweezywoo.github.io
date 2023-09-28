@@ -15,11 +15,9 @@ h1 {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky; 
   top: 0;
   padding: 1px;
-
 }
 
 .topnav {
@@ -118,7 +116,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  width: 50%;
 }
 
 
@@ -130,6 +128,7 @@ a {
 }
 
 ul {
+  list-style: none;
   width: 50%;
   text-align: center;
   margin-left: auto;
@@ -177,16 +176,6 @@ position: absolute;
 .button:active {
   background-color: beige;
   color: rgb(191, 64, 191);
-}
-
-.contactheader,
-.contactinfo {
-  width: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .foodmenu {
@@ -251,7 +240,7 @@ position: absolute;
 @media only screen and (max-width:420px) {
   h1 {
     width: 410px;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .topnav {
@@ -280,20 +269,18 @@ position: absolute;
    text-shadow: 1 px 1px black;
   }
 
-  .contactheader {
-    width: 410px;
-    clear:both;
-  }
-
-  .contactinfo {
-    width: 350px;
-    justify-content: center;
-    align-items: center;
+  p {
+    font-size: 15px
   }
 
   .button {
-    font-size: 10px;
+    width: 50%;
+    font-size: 20px;
   }
+
+.centerphotos {
+  width: 350px;
+}
 
   table,
   th,
@@ -303,12 +290,13 @@ position: absolute;
   }
 
 .google-map {
-  width: 415px
+  width: 410px
 }
 
 .foodmenu {
   width: 405px;
   font-size: 12px;
+
 }
 
   .gallery {
