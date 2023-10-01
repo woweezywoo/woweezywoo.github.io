@@ -89,10 +89,10 @@ th {
   color: beige;
   width: 100px;
   height: 50px;
-  font-size: 3vw;
+  font-size: 2vw;
   font-family: 'optima', sans-serif;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px;
   border-left: 5px solid black;
   border-radius: 15px;
   text-align: center;
@@ -134,7 +134,8 @@ ul {
 }
 
 .google-map {
-  width: 40%;
+  width: 50%;
+  height: 40%;
   padding-bottom: 300px;
   position : relative;
   margin-left: auto;
@@ -232,6 +233,37 @@ position: absolute;
   grid-row-end: 4;
 }
 
+@-webkit-keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-right {
+	-webkit-animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
 @media only screen and (max-width:420px) {
 
   h1 {
@@ -304,8 +336,13 @@ position: absolute;
   }
 
 .google-map {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.google-map iframe {
+  height: 50%;
+  justify-items: center;
 }
 
 .foodmenu {
@@ -315,6 +352,7 @@ position: absolute;
 }
 
   .gallery {
+    margin-top: 0;
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 5fr);
