@@ -334,6 +334,10 @@ position: absolute;
     background-color:beige;
     color: rgb(191, 64, 191)
   }
+
+  .bottomnav a {
+    font-size: 3vw;
+  }
   h2  {
    font-size: 7vw;
    text-shadow: none;
@@ -465,6 +469,10 @@ td  {
   font-size: 4vw;
   padding: 2% 2% 2% 0;
   
+}
+
+.bottomnav {
+  font-size: 3vw;
 }
 
 .centerphotos {
