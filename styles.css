@@ -13,12 +13,6 @@ h1 {
   margin-right: auto;
 }
 
-.sticky {
-  position: sticky; 
-  top: 0;
-  padding: 1px;
-}
-
 .topnav {
   width: 80%;
   background-color: black;
@@ -36,8 +30,8 @@ h1 {
   padding: 18px 12px;
   border-radius: 5px;
   text-decoration: none;
-  font-family: 'Mg Dalenaf', sans-serif;
-  font-size: 2vw;
+  font-family: 'Donut Days', sans-serif;
+  font-size: 3vw;
 }
 
 .topnav a:hover {
@@ -48,6 +42,25 @@ h1 {
 .topnav a.active {
   background-color: rgb(191, 64, 191);
   color: beige;
+}
+
+.bottomnav{
+background-color: black;
+overflow: hidden;
+bottom: 0;
+width: 100%;
+border-radius: 10%;
+}
+
+.bottomnav a{
+  float: left;
+  display: block;
+  color: beige;
+  padding-right: 1%;
+  font-style: 'Donut Days', sans-serif;
+  text-align: left;
+  font-size: 2vw;
+
 }
 
 h2  {
@@ -80,6 +93,7 @@ table {
   border: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10%;
   overflow: hidden;
   font-family: 'optima', sans-serif;
 }
@@ -169,9 +183,32 @@ position: absolute;
   color: rgb(191, 64, 191);
 }
 
-.button:active {
+.button.active {
+  background-color: rgb(191, 64, 191);
+  color: beige;
+}
+
+.bottombutton {
+  width: 50%;
+  background-color: black;
+  border-radius:  10px;
+  color: beige;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: 'Donut Days', sans-serif;
+  font-size: 1dvw
+}
+
+.bottombutton:hover {
   background-color: beige;
   color: rgb(191, 64, 191);
+}
+
+.bottombutton.active {
+  background-color: rgb(191, 64, 191);
+  color: beige;
 }
 
 .foodmenu {
@@ -233,6 +270,12 @@ position: absolute;
   grid-row-end: 4;
 }
 
+.bottombutton {
+  width: 25%;
+  font-size: 3vw;
+  margin-top: 0;
+}
+
 @-webkit-keyframes fade-in-right {
   0% {
     -webkit-transform: translateX(50px);
@@ -278,9 +321,8 @@ position: absolute;
   }
   
   .topnav a {
-    font-size: 2vw;
-    padding-right: 10px;
-    
+    font-size: 3vw;
+    padding-right: 4%;
   }
 
   .topnav a:hover {
@@ -413,15 +455,16 @@ td  {
 }
 
 .topnav {
-  width: 90%;
+  width: 95%;
   padding: 2%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .topnav a {
-  font-size: 2vw;
-  padding-right: 5px;
+  font-size: 4vw;
+  padding: 2% 2% 2% 0;
+  
 }
 
 .centerphotos {
