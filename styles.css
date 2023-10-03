@@ -394,8 +394,12 @@ position: absolute;
   justify-items: center;
 }
 
+img {
+  max-width: 50%;
+}
+
 .foodmenu {
-  width: 90%;
+  width: 100%;
   font-size: 3vw;
 
 }
