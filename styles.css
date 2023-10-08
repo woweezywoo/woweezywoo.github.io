@@ -311,6 +311,10 @@ position: absolute;
 
 @media only screen and (max-width:420px) {
 
+  body {
+    margin: 2px
+  }
+
   h1 {
     font-size: 6vw;
     text-shadow: none;
@@ -363,7 +367,7 @@ position: absolute;
   }
 
 .centerphotos {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -390,7 +394,7 @@ position: absolute;
   justify-items: center;
 }
 
-img {
+.foodmenu img {
   max-width: 50%;
 }
 
